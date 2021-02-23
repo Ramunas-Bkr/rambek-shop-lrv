@@ -16,7 +16,7 @@
                         <p>499,00 &euro;</p>
                         <p>
                             <a href="#" class="btn btn-primary" role="button">Į krepšelį</a>
-                            <a href="{{ url('/product') }}" class="btn btn-default"
+                            <a href="{{ url('/mobile/iPhone_SE_64GB') }}" class="btn btn-default"
                                role="button">Daugiau</a>
                         </p>
                     </div>

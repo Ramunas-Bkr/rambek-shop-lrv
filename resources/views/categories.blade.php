@@ -7,7 +7,7 @@
 <div class="container">
     <div class="starter-template">
         <div class="panel">
-            <a href="#">
+            <a href="/mobile">
                 <img src="/src/img/mobile.jpg">
                 <h2>Mobilieji telefonai</h2>
             </a>
@@ -16,7 +16,7 @@
             </p>
         </div>
         <div class="panel">
-            <a href="#">
+            <a href="/portable">
                 <img src="/src/img/portable.jpg">
                 <h2>Nešiojama technika</h2>
             </a>
@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="panel">
-            <a href="#">
+            <a href="/appliance">
                 <img src="/src/img/appliance.jpg">
                 <h2>Buitinė technika</h2>
             </a>
