@@ -6,34 +6,17 @@
 
 <div class="container">
     <div class="starter-template">
-        <div class="panel">
-            <a href="/mobile">
+        @foreach ($categories as $category)
+            <div class="panel">
+            <a href="/{{$category->code}}">
                 <img src="/src/img/mobile.jpg">
-                <h2>Mobilieji telefonai</h2>
+                <h2>{{ $category->name }}</h2>
             </a>
             <p>
-                Čia Jūs rasite populiariausius mobiliuosius telefonus už patrauklią kainą
+                {{ $category->description }}
             </p>
         </div>
-        <div class="panel">
-            <a href="/portable">
-                <img src="/src/img/portable.jpg">
-                <h2>Nešiojama technika</h2>
-            </a>
-            <p>
-                Skyrius su nešiojama technika
-            </p>
-        </div>
-        <div class="panel">
-            <a href="/appliance">
-                <img src="/src/img/appliance.jpg">
-                <h2>Buitinė technika</h2>
-            </a>
-            <p>
-                Skyrius su buitine technika
-            </p>
-        </div>
+        @endforeach       
+     
     </div>
 </div>
-</body>
-</html>

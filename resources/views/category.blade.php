@@ -1,22 +1,14 @@
 @extends('layouts.app')
 
-@section('title', $category)
+@section('title', 'rambek - ' . $category->name)
 
 @section('content')
 
 <div class="container">
     <div class="starter-template">
-        <h1>
-            @if($category == 'mobile')
-                Mobilieji telefonai
-            @elseif($category == 'portable')
-                Nešiojama technika
-            @elseif($category == 'appliance')
-                Buitinė technika
-            @endif
-        </h1>
+        <h1>{{ $category->name }}</h1>
         <p>
-            Čia Jūs rasite populiariausius mobiliuosius telefonus už patrauklią kainą
+            {{ $category->description }}
         </p>
         <div class="row">
            <div class="col-sm-6 col-md-4">

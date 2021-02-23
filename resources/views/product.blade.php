@@ -14,5 +14,3 @@
         <a class="btn btn-success" href="#">Į krepšelį</a>
     </div>
 </div>
-</body>
-</html>
