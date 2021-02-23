@@ -3,8 +3,6 @@
 @section('title', 'rambek - Prekė')
 
 @section('content')   
-
-<div class="container">
     <div class="starter-template">
         <h1>iPhone SE 64GB White</h1>
         <h3>{{ $product }}</h3>
@@ -13,4 +11,3 @@
         <p>Puikus galingas telefonas su 64 GB atmintimi</p>
         <a class="btn btn-success" href="#">Į krepšelį</a>
     </div>
-</div>

@@ -20,7 +20,7 @@ class MainController extends Controller
         ]);
     }
 
-    public function product($product = null)
+    public function product($category, $product = null)
     {
         return view('product', [
             'product' => $product
@@ -31,5 +31,15 @@ class MainController extends Controller
     {
         $category = Category::where('code', $code)->first();
         return view('category', compact('category'));
+    }
+
+    public function basket()
+    {
+        return view('basket');
+    }
+
+    public function basketPlace()
+    {
+        return view('order');
     }
 }

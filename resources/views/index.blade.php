@@ -8,7 +8,8 @@
         <h1>Visos prekės</h1>
 
         <div class="row">
-            <div class="col-sm-6 col-md-4">
+            @include('card')
+            {{-- <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <img src="/src/img/iphone_se_white2_4.png" alt="iPhone SE 64GB">
                     <div class="caption">
@@ -161,7 +162,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
